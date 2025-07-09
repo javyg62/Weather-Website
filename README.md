@@ -1,10 +1,5 @@
 # Weather Website using MJML Email Templates
   
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
-This project is connected to the Convex deployment named [`admired-stingray-683`](https://dashboard.convex.dev/d/admired-stingray-683).
-  
 ## Project structure
   
 The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
@@ -28,7 +23,7 @@ Check out the [Convex docs](https://docs.convex.dev/) for more information on ho
 
 User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
 
-##Features Built:
+## Features Built:
 🌤️ Weather Dashboard - Get current weather for any location (currently with example data)
 
 📧 MJML Email Templates - Beautiful, responsive email templates with:
