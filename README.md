@@ -1,7 +1,5 @@
 # Weather Website using MJML Email Templates
   
-This project is connected to the Convex deployment named [`admired-stingray-683`](https://dashboard.convex.dev/d/admired-stingray-683).
-  
 ## Project structure
   
 The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
